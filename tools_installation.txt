@@ -1,0 +1,49 @@
+		INSTALLATION OF TOOLS AND DEFINITION
+
+1. binutils
+is a binary package that consists of assembler{gas also known as as}, gnu
+assembler and linker {also known as ld}.
+
+	The assembler is used to create the C compiler and allows the 
+translation of C code into object code.
+
+	The linker is used to link the object code produced by the assembler 
+into raw binary code that can be executed by the CPU.
+
+
+
+2. build-essentials 
+This is a binary package that consists of GCC{also known as GNU C compiler}
+and make programs which is used for writing scripts that allows you build your 
+C source code  based on target, prerequisite and recipe.
+
+	The GCC is a GNU C compiler created by the free open-source community
+The compiler is used to compile C source code beginning from the main() 
+function.
+
+	The MAKE programe is a utility tool that allows us to create a script
+in a file called Makefile which is sturctured using target, prerequisite 
+and recipe which are instructions you must follow in writing your scripts.
+There are other options to explore regarding variables, options and shell
+symbols.
+
+
+3. gh and git
+	3.1 gh
+	   is a CLI tool that allows you to authenticate, create repository,
+	   clone repository, push new or created repository, fetch, merge,
+	   and other commands regarding to gh such as delete a repo, fork a 
+	   repo and so on.
+
+	3.2 git
+	   is a version control program with the ability to keep track of code
+	   changes. It also has other programs that you can execute such as
+	   launching a server for a website, connecting, authenticating 
+	   using your username and email.
+
+
+4. tmux
+is a cli tool that allows multi-splitting of your terminal into multiple
+sections panel that can be seen as one terminal.
+
+
